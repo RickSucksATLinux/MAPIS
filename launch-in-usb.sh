@@ -8,7 +8,7 @@ cp "$usb_location_point/MAPIS" "$HOME/"
  
 # Run the scripts
 "$HOME/MAPIS/install.sh"
-"$HOME/MAPIS/i3wmconfig.sh"
+"$HOME/MAPIS/i3wmconfig-usb.sh"
 
 # Unmount the USB drive
 sudo umount "$usb_location_point"
