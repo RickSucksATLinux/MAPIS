@@ -29,7 +29,7 @@ set_picom() {
 }
 
 # Main script
-cp -r /run/media/richard/Ventoy/install-scripts-of-my-own $HOME/Pictures
+cp -r $HOME/MAPIS/background.jpg $HOME/Pictures
 set_background "$background_file"
 set_picom "$picom_options"
 echo "font pango:monospace 0" >> ~/.config/i3/config
